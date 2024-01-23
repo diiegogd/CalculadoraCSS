@@ -1,0 +1,97 @@
+/* Estilo para la raíz */
+#view {
+    -fx-background-color: #333333; /* Gris oscuro */
+    -fx-font-family: "Monospace";
+    -fx-hgap: 1px;
+    -fx-vgap: 1px;
+}
+
+/* Estilo para cuadros de texto */
+#screenText {
+    -fx-text-fill: #d3d3d3;
+    -fx-alignment: center-right;
+    -fx-font-size: 25pt;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0px;
+}
+
+/* Estilo para botones */
+.button {
+    -fx-font-size: 16pt;
+    -fx-background-radius: 0px;
+    -fx-background-insets: 0px;
+}
+
+/* Estilo para botones con foco */
+.button:focused {
+    -fx-border-color: white;
+}
+
+/* Estilo para botones armados */
+.button:armed {
+    -fx-border-color: yellow;
+}
+
+/* Estilo para botones numéricos */
+.button-number {
+    -fx-text-fill: white;
+    -fx-background-color: #a9a9a9;
+}
+
+/* Estilo para botones numéricos con ratón encima */
+.button-number:hover {
+    -fx-text-fill: #333333;
+    -fx-background-color: white;
+}
+
+/* Estilo para botones numéricos pulsados */
+.button-number:pressed {
+    -fx-text-fill: #d3d3d3;
+    -fx-background-color: black;
+}
+
+/* Estilo para botones de reinicio */
+.button-reset {
+    -fx-text-fill: black;
+    -fx-background-color: #d3d3d3;
+}
+
+/* Estilo para botones de reinicio con ratón encima */
+.button-reset:hover {
+    -fx-background-color: white;
+}
+
+/* Estilo para botones de reinicio pulsados */
+.button-reset:pressed {
+    -fx-text-fill: #d3d3d3;
+    -fx-background-color: black;
+}
+
+/* Estilo para botones de operación */
+.button-operation {
+    -fx-text-fill: white;
+    -fx-background-color: orange;
+}
+
+/* Estilo para botones de operación con ratón encima */
+.button-operation:hover {
+    -fx-background-color: darkorange;
+}
+
+/* Estilo para botones de operación por defecto con ratón encima */
+.button-operation:default:hover {
+    -fx-background-color: red;
+}
+
+/* Estilo para botones de operación pulsados */
+.button-operation:pressed {
+    -fx-text-fill: #ffa500;
+    -fx-background-color: white;
+}
+
+/* Estilo para botones de operación por defecto */
+.button-operation:default {
+    -fx-background-color: orangered;
+}
